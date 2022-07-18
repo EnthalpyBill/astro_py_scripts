@@ -1,6 +1,6 @@
 # astro_py_scripts
 
-[![doc](https://astro-py-scripts.readthedocs.io/en/latest/?badge=latest)](https://readthedocs.org/projects/astro-py-scripts/badge/?version=latest)
+[![doc](https://readthedocs.org/projects/astro-py-scripts/badge/?version=latest)](https://astro-py-scripts.readthedocs.io/en/latest/?badge=latest)
 
 Useful astro Python scripts
 
