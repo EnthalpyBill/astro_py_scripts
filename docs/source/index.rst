@@ -7,17 +7,17 @@ Contents
 ========
 
 .. toctree::
-   :maxdepth: 2
-   :caption: NumPy
+   :maxdepth: 1
+   :caption: Basic Python 
 
-   notebooks/demo.ipynb
-
+   notebooks/demo/demo.ipynb
 
 .. toctree::
-   :maxdepth: 2
-   :caption: MatPlotLib
+   :maxdepth: 1
+   :caption: Algorithm
 
-   notebooks/demo.ipynb
+   notebooks/FFT/FFT.ipynb
+   notebooks/fit/fit.ipynb
 
 How to contribute?
 ==================
@@ -27,13 +27,13 @@ How to contribute?
 Format
 ------
 
-We strongly recommend you to put everythong in a single `Jupyter Notebook <https://jupyter.org/>`_. However, if extra files are needed, you should put all files in one folder. Once being deployed, your notebook will be stored as::
+We recommend you to put everythong in a single `Jupyter Notebook <https://jupyter.org/>`_ if possible. However, if extra files are needed, you should put all files in one folder. Once being deployed, your notebook will be stored as::
 
    docs/source/notebooks/<name_of_your_folder>/<name_of_your_notebook>.ipynb
 
 Please also put it in a folder even if you only have one notebook. Some of our post-processing codes rely on such hierarchy.
 
-**It is super important to make sure everyone can run your notebook on their own devices!** So, remember to restart your notebook before submitting it. Fix any bug if the notebook cannot run smoothly. Also, we recommend you to write down the versions of your Python and any packages you have imported at the begining of your notebook. 
+**It is super important to make sure everyone can run your notebook on their own devices!** So, remember to restart your notebook before submitting it. Fix any bug if the notebook cannot run smoothly. Also, we recommend you to write down the versions of your Python and the modules you have imported at the begining of your notebook. If your script includes randomness, please also specify random seed!
 
 License
 -------
@@ -42,9 +42,11 @@ Since **astro_py_scripts** is completely open source, you are recommended to hav
 
    docs/source/notebooks/<name_of_your_folder>/LICENSE
 
-And, you can also briefly mention your license information in the notebook. Write something like "The copyright of this notebook belongs to <your name> under the MIT license (see LICENSE)".
+And, you can also briefly mention your license information in the notebook. Write something like "The copyright of this notebook belongs to <your name> under the MIT license".
 
-Please make sure your license is compatible with **astro_py_scripts**, which uses the MIT license. Clearly, a GPL license is not compatible. Click `here <https://opensource.org/licenses>`_ for more information about licenses.
+.. tip::
+
+   Please make sure your license is compatible with **astro_py_scripts**, which uses the MIT license. Clearly, a GPL license is not compatible. Click `here <https://opensource.org/licenses>`_ for more information about licenses.
 
 Contribute in a GitHub style
 ----------------------------
