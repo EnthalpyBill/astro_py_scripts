@@ -55,11 +55,3 @@ We maintain **astro_py_scripts** with `GitHub Flow <https://docs.github.com/en/g
 
 You can learn GitHub Flow with `this video <https://www.youtube.com/watch?v=juLIxo42A_s>`_. It's a long video but don't be afraid! The standard GitHub Flow includes many subtle operations to avoid any potential conflict with other contributers. However, since our project is not that popular (at least for now), you are not likely to face a lot of annoying conflicts. You may alternatively want to watch this `shoter video <https://www.youtube.com/watch?v=GgjIvUrOpmg>`_.
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
